@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1100px;
+  height: 680px;
+  background-color: white;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0;
+}
+
+.form__basic {
+  width: 800px;
+  height: 600px;
+  border: 2px solid #b0b3c8;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+}
+
+.form__title {
+  background-color: #2762bc;
+  height: 53px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 14px solid #2762bc;
+  bottom: 762px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.form__description {
+  margin: auto;
+  width: 200px;
+}
+
+.price {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+.figure {
+  width: 60px;
+  margin: auto;
+  position: relative;
+  margin-bottom: -59px;
+  z-index: 1;
+}
+
+.squa__one {
+  width: 0;
+  height: 0;
+  border-top: 19px solid #3e4ea7;
+  border-left: 30px solid #3e4ea7;
+  border-right: 30px solid #3e4ea7;
+  bottom: 762px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.triangle__shape {
+  width: 0;
+  height: 0;
+  border-top: 19px solid #3e4ea7;
+  border-bottom: 10px solid transparent;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  bottom: 762px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.form__twoAction {
+  color: #fff;
+  margin-top: -41px;
+  font-size: 17px;
+  position: absolute;
+  right: 14px;
+}
+
+.figureLast {
+  width: 199px;
+  margin: auto;
+  position: relative;
+}
+
+.squa__last {
+  width: 200px;
+  height: 100px;
+  background: #f2f2f2;
+  margin: auto;
+}
+
+.triangle__shapeLast {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 23px solid #f2f2f2;
+  margin: auto;
+}
+
+.form__promotion {
+  position: absolute;
+  font-size: 27px;
+  top: 9px;
+  padding: 13px;
+  right: 0;
+}
+
+.form__promotionText {
+  position: absolute;
+  font-size: 15px;
+  top: 41px;
+  padding: 22px;
+}
+
+.button {
+  margin: auto;
+  background-color: #5caf20;
+  border: 0;
+  width: 96px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.button_label {
+  color: #ffffff;
+}
+
+.form__optimal {
+  width: 800px;
+  height: 600px;
+  border: 2px solid #b0b3c8;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+}
+
+.form__premium {
+  width: 800px;
+  height: 600px;
+  border: 2px solid #b0b3c8;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+}
+
+.form__basic:hover {
+  transform: scale(1.1);
+}
+
+.form__optimal:hover {
+  transform: scale(1.1);
+}
+
+.form__premium:hover {
+  transform: scale(1.1);
+}
+
+.form__basic:hover .form__title {
+  background-color: orange;
+}
+
+.form__optimal:hover .form__title {
+  background-color: orange;
+}
+
+.form__premium:hover .form__title {
+  background-color: orange;
+}
+
+.form__basic:hover .triangle {
+  border-top: 14px solid orange;
+}
+
+.form__optimal:hover .triangle {
+  border-top: 14px solid orange;
+}
+
+.form__premium:hover .triangle {
+  border-top: 14px solid orange;
+}
